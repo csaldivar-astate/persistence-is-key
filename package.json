@@ -1,0 +1,24 @@
+{
+  "name": "persistence-is-key",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csaldivar-astate/persistence-is-key.git"
+  },
+  "author": "Chris Saldivar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/csaldivar-astate/persistence-is-key/issues"
+  },
+  "homepage": "https://github.com/csaldivar-astate/persistence-is-key#readme",
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "supertest": "^6.2.2"
+  }
+}

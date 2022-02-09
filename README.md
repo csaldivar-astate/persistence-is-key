@@ -311,3 +311,25 @@ If the user has more guessed 5 times then delete them from the `gameState` objec
 Otherwise check their word like normal but don't respond with the result yet. First, increment their guesses. If they have guessed 5 times or they guessed correctly then delete them from the `gameState`. Then send back the result like normal
 
 *This is not a good system since multiple users can be on the same IP address. We will solve this issue by using session management later. 
+
+## Final Directory Structure
+
+By the end of the assignment this should be your directory structure (`package-lock.json`, `node_modules/`, `tests/`, `.git/` and `.vscode/` are not listed)
+
+```
+.
+├── .env
+├── .gitignore
+├── Database
+│   ├── .keep
+│   ├── init-db.js
+│   ├── schema.sql
+│   └── wordle.db
+├── Models
+│   ├── db.js
+│   └── dictionaryModel.js
+├── README.md
+├── app.js
+├── package.json
+├── server.js
+```

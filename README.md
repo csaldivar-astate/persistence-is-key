@@ -100,7 +100,7 @@ db.exec(schemaString);
 
 ## `npm` scripts
 
-Now we can create the `npm` script to initialize the database. `npm` scripts are just CLI commands that we add to `package.json`. So open your `package.json` you should already have a `"start`", `"test"` and `"test:watch"` script that I've added. Now add a new script to the `"scripts"` object with the key `"init-db"` and the value `"node ./Database/init-db.js"` 
+Now we can create the `npm` script to initialize the database. `npm` scripts are just CLI commands that we add to `package.json`. So open your `package.json` you should already have a `"test"` and `"test:watch"` script that I've added. Now add a new script to the `"scripts"` object with the key `"init-db"` and the value `"node ./Database/init-db.js"` 
 
 ```json
   "scripts": {
@@ -138,10 +138,6 @@ For every function: Catch any errors and log them with `console.error()`.
 ### `addWord()`
 
 Create a function called `addWord()` which will insert a new word into the `Dictionary` database. You must ensure that the word is exactly 5 letters before inserting into the database. Convert the word to all lower case **before** inserting into the database. There should be no return value.
-
-### `addWord()`
-
-Create a function called `addWord()` which will take a single parameter `word` and insert it into the `Dictionary` database. You must ensure that the word is exactly 5 letters before inserting into the database. There should be no return value.
 
 ### `addManyWords()`
 

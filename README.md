@@ -269,7 +269,9 @@ The keys for this object will be the IP addresses and the values will be another
 
 ```js
 {
-    "::1": { // "::1" is the IPv6 address for localhost; aka 127.0.0.1
+    // "::1" is the IPv6 address for localhost; aka 127.0.0.1
+    // this is probably what you will see if you console.log(req.ip);
+    "::1": { 
         word: "prize",
         numGuesses: 2
     },
